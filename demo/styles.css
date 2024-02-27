@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+
+body{
+    background:#222222;
+    color:white;
+    padding: 14px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: 'sans serif','Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav,section{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.greylink{
+    color: grey;
+}
+
+.whitelink{
+    color: white;
+}
+
+a{
+    text-decoration: unset;
+    font-size: 0.8em;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 0px 14px;
+
+}
+
+.logo{
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.searchbar{
+    display: flex;
+    gap: 14px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    padding: 14px;
+    border-radius: 26px;
+    
+
+}
+
+.searchbar:hover{
+    border-color: transparent;
+    background-color: grey;
+
+}
+
+input{
+    background: transparent;
+    outline: none;
+    border: unset;
+    color: white;
+    flex: 1;
+    
+}
+
+.searchbuttonscontainer button{
+    padding: 10px 14px;
+    border-radius: 6px;
+    background-color: grey;
+    border-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.searchbuttonscontainer button:hover{
+    border-color: grey;
+
+}
+
+.searchbuttonscontainer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.languageselection{
+    font-size: 0.9em;
+    color: grey;
+
+}
+
+.languageselection span{
+    color: lightblue;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+footer > section:last-child{
+    padding: 14px;
+    border-top: 1px solid grey;
+    justify-content: space-around;
+
+
+}
+
+.lastlinks{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.lastlinks a{
+    cursor: pointer;
+}
+
+.searchbaricons{
+    background-color: transparent;
+    border-color: transparent;
+    color: white;
+    font-size: 1.2em;
+}
+
+.iconcontainer{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
